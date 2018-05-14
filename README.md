@@ -21,7 +21,40 @@ Apart from the positional validations (mentioned below) and Check Sum Validation
     Next 1 (12th) Character should be Letter
     Next 1 (13th) Character can be Number or Letter
     Next 1 (14th) Character should be “Z”
-    Next 1 (15th) Character can be either a Number or a Letter
+    Next 1 (15th) Character can be either a Number or a Letter (IT IS CALCULATE BY CHECKSUM)
 
  CHECKSUM ALGORITHM
  
+     PLACE VALUES
+
+0:0              A:10
+1:1              B:11
+ :                :
+ :                :
+ :                :
+8:8              Y:34
+9:9              Z:35
+
+STEP 1
+>FIND THE PLACE VALUE OF THE DIGIT
+>MULTIPLY BY FACTOR
+
+STEP 2
+>DEVIDE TO PLACE VALUE NUMBER OF DIGITS
+>ADD THE QUOTIENT IN TO REMINDER 
+
+STEP 3
+>REPEAT STEP 1 AND STEP 2 FOR ALL DIGITS
+
+STEP 4
+>ADD ALL DIGIT VALUES
+
+STEP 5
+>MOD OF SUM AND NUMBER OF POSSIBLE DIGITS
+>SUBTRACT FROM TOTAL DIGITS
+>MOD AGAIN BY TOTAL DIGITS
+
+STEP 6
+>FIND THE PLACE VALUE DIGIT FROM ALL DIGITS
+
+
