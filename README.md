@@ -27,14 +27,21 @@ Apart from the positional validations (mentioned below) and Check Sum Validation
  
      PLACE VALUES
 
-0:0              A:10
-1:1              B:11
+0:0              
+1:1             
+ :         
+ :          
+ :            
+8:8           
+9:9        
+ 
+A:10
+B:11
+ :        
+ :                
  :                :
- :                :
- :                :
-8:8              Y:34
-9:9              Z:35
-
+Y:34
+Z:35
 STEP 1
 >FIND THE PLACE VALUE OF THE DIGIT
 >MULTIPLY BY FACTOR
