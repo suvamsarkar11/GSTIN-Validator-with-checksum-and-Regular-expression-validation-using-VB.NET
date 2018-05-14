@@ -1,7 +1,7 @@
 # GSTIN-Validator-with-checksum-and-Regular-expression-validation-using-VB.NET
 GSTIN Validator with checksum and Regular expression validation using VB.NET
 
-HOW GSIN VALIDATION WORK
+HOW GSTIN VALIDATION WORK
 
 
 The Most important Validation provided by GSTIN Offline Validation Tool is “Check Sum” Validation. This is the heart of this Tool. The geniuses of the tool lie in the fact that first 14 digits of GSTIN are mathematically related to the last digit. Hence we can check offline whether the GSTIN number is correct or not.
