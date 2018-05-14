@@ -37,11 +37,13 @@ Apart from the positional validations (mentioned below) and Check Sum Validation
  
 A:10
 B:11
- :        
- :                
- :                :
+ :
+ :
+ :
 Y:34
 Z:35
+
+
 STEP 1
 >FIND THE PLACE VALUE OF THE DIGIT
 >MULTIPLY BY FACTOR
