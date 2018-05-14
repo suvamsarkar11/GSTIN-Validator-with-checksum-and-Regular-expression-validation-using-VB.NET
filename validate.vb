@@ -1,4 +1,8 @@
 ''CODE FOR GST NUMBER VALIDATION 'START'  
+Imports System.Text.RegularExpressions
+
+Dim GSTINFORMAT_REGEX As Regex = New Regex("[0-9]{2}[a-zA-Z]{5}[0-9]{4}[a-zA-Z]{1}[1-9A-Za-z]{1}[Z]{1}[0-9a-zA-Z]{1}")
+Dim GSTN_CODEPOINT_CHARS As String = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     Public Function validGSTIN(ByVal InputGSTIN As String) As Boolean
         'Method to check if a GSTIN is valid. Checks the GSTIN format and the check digit is valid for the passed input GSTIN
